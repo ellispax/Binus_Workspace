@@ -1,0 +1,45 @@
+{
+    "bankname": "My Bank",
+    "Customers": {
+        "ellis": {
+            "Firstname": "Tawanda",
+            "Lastname": "Chuma",
+            "Pass": "TawaCh",
+            "account": {
+                "balance": 23000
+            }
+        },
+        "floyd": {
+            "Firstname": "Floyd",
+            "Lastname": "Mapax",
+            "Pass": "rasta",
+            "account": {
+                "balance": 248000.0
+            }
+        },
+        "gift": {
+            "Firstname": "gift",
+            "Lastname": "mapakame",
+            "Pass": "mapakame",
+            "account": {
+                "balance": 77000.0
+            }
+        },
+        "mama": {
+            "Firstname": "Mama",
+            "Lastname": "Baba",
+            "Pass": "mudara",
+            "account": {
+                "balance": 100000
+            }
+        },
+        "Bogeyman": {
+            "Firstname": "Jonathan",
+            "Lastname": "Wick",
+            "Pass": "Wick123",
+            "account": {
+                "balance": 100000
+            }
+        }
+    }
+}
