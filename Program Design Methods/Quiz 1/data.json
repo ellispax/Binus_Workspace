@@ -1,0 +1,20 @@
+{
+    "program_name": "Staff",
+    "Staff": {
+        "S1001": {
+            "Name": "Ellis",
+            "Position": "Manager",
+            "Salary": 10500000
+        },
+        "S1002": {
+            "Name": "Tatenda",
+            "Position": "Staff",
+            "Salary": 7000000
+        },
+        "S1005": {
+            "Name": "Tawanda",
+            "Position": "Officer",
+            "Salary": 11000000
+        }
+    }
+}
