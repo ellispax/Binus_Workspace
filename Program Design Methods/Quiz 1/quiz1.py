@@ -148,7 +148,10 @@ while looper == 0:
         ans = input("Yes (Y) or No (N) >> ")
         if ans.upper() == "Y":
             staffid = input("Enter Staff ID >>")
-            staffs.pop(staffs.index(staffid))
+            if staffid not in staffs:
+                print("Staff ID does not exist in database")
+            else:
+                staffs.pop(staffs.index(staffid))
         else:
             print("Delete Procedure Aborted !")
 
