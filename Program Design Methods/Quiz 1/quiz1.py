@@ -99,6 +99,9 @@ while looper == 0:
             if(validate[0] != "S"):
                 print("Staff ID must have S as the first character")
                 valid = False
+            if (len(validate) != 5):
+                print("Staff ID must be 5 characters long!")
+                valid = False
                 
             if(len(validate) > 5):
                 print("Staff ID cannot be larger than 5 characters! ")
@@ -195,10 +198,7 @@ while looper == 0:
         print("Invalid Input !!")
 
 
-
-    
-        
-            
+ 
 
 
 
