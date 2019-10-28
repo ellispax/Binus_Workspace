@@ -51,7 +51,7 @@ positions = {
         },
         "Manager": {
             "min": 10000001,
-            "max": 1E+128
+            "max": 1000000000
         }
     }     
 staffs = loadjson()
