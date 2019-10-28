@@ -141,7 +141,7 @@ while looper == 0:
 
         staffs.append(Staff(validate, name, position, salary))
         print("Record has been saved! ")
-        print (staffs)
+        
 
     elif(userinput == "2"):
         print("Are you sure you want to delete a record?")
