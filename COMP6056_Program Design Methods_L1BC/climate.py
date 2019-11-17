@@ -634,10 +634,10 @@ class Climate_Buddy:
 
             if (userInput == "1"):
                 name = input("Enter Full Name >> ")
-                usern = input("Enter prefered username >> ")
-                password = getpass.getpass()
-                re_enter = getpass.getpass()
-                access = input("Enter Access level >> ")
+                usern = input("Enter prefered username >> ").lower()
+                password = getpass.getpass().lower()
+                re_enter = getpass.getpass().lower()
+                access = input("Enter Access level >> ").lower()
 
                 if (password == re_enter):
                     acc = access
@@ -651,7 +651,7 @@ class Climate_Buddy:
                     admin_menu()
 
             elif (userInput == "2"):
-                name = input("Enter Username >> ")
+                name = input("Enter Username >> ").lower()
                 if name in start.users:
                     print("Are you sure you want to delete user >>", name," from the system?")
                     ans = input("Yes (Y) or No (N) >> ")
@@ -720,6 +720,7 @@ class Climate_Buddy:
         def user_menu():    #this menu is for the ordinary users
             print("""\n
                         *********************************
+                            """, d1," | ", t1, """
                                 CLIMATE BUDDY v1.01
                         *********************************
                                 CHOOSE OPERATION 
