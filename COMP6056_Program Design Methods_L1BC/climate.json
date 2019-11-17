@@ -1,0 +1,35 @@
+{
+    "System": "Climate Buddy",
+    "users": {
+        "ellis": {
+            "fname": "Ellis Pax",
+            "password": "mapakama",
+            "access": "admin"
+        },
+        "lights": {
+            "fname": "Tatenda Jesse",
+            "password": "tatenda",
+            "access": "admin"
+        },
+        "Madziva": {
+            "fname": "Takudzwa",
+            "password": "blessing",
+            "access": "user"
+        },
+        "hope": {
+            "fname": "Hope Mapakame",
+            "password": "mapax",
+            "access": "user"
+        },
+        "Tatenda": {
+            "fname": "Tatenda",
+            "password": "tatenda",
+            "access": "admin"
+        },
+        "blessing": {
+            "fname": "Takudzwa Madzivadondo",
+            "password": "Asdfghjkl",
+            "access": "user"
+        }
+    }
+}
