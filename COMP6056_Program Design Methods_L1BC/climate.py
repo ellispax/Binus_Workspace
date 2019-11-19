@@ -20,7 +20,7 @@ class Climate_Buddy:
                     *******************************************
                         Welcome To The Climate Buddy v1.01 
                     *******************************************
-                        Please use you credentials to login
+                        Please use your credentials to login
                     -------------------------------------------""")
         status = False
         while status ==False:
@@ -669,12 +669,17 @@ class Climate_Buddy:
                 userName = input("Enter Username >> ")
                 if userName in start.users:
                     get = start.getUser(userName)
-                    print("---------------------------------------------")
-                    print("Full Name: ", get.getuser())
-                    print("Username: ", userName)
-                    print("Password: ", get.getpass())
-                    print("Access Level: ", get.getAccess())
-                    print("----------------------------------------------")
+                    print("""\n
+                            
+                                    USER DETAILS FOR:
+                        ------------------------------------
+                            Full Name      | """,get.getuser(),"""
+                            Username       | """,userName,"""
+                            Password       | """,get.getpass(),"""
+                            Access Level   | """,get.getAccess(),"""
+                        ------------------------------------
+
+                            """)
                     admin_menu()
                 else:
                     print("User Not in the Database!")
